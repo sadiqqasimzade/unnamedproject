@@ -1,0 +1,251 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: Merriweather, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+
+.sector1 {
+    text-align: center;
+    padding-top: 20%;
+    width: 60%;
+    margin-left: 20%;
+    color: white;
+}
+
+.sector2 {
+    text-align: center;
+    padding-top: 10%;
+    width: 60%;
+    margin-left: 20%;
+    color: white;
+}
+
+.sector3 {
+    text-align: center;
+    padding-top: 5%;
+    width: 60%;
+    margin-left: 20%;
+    color: black;
+}
+
+.sector3-table {
+    text-align: center;
+    padding-top: 5%;
+    width: 100%;
+    color: black;
+}
+
+.sector3-without-padding {
+    text-align: center;
+    padding-top: 10%;
+    color: black;
+
+}
+
+.sector4 {
+
+    text-align: center;
+    padding-top: 5%;
+    width: 60%;
+    margin-left: 20%;
+    color: white;
+
+}
+
+/*nav*/
+nav a {
+    float: left;
+    font-weight: 500;
+    font-size: large;
+    text-align: center;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+    display: block;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-right: 10%;
+    text-transform: capitalize;
+    float: right;
+}
+
+nav {
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+    position: fixed;
+}
+
+nav a:hover {
+    color: red;
+}
+
+nav a:hover:active {
+    color: blue;
+}
+
+/*float margin*/
+.fleft {
+    float: left;
+}
+
+.fright {
+    float: right;
+}
+
+.mleft10 {
+    margin-left: 10%;
+}
+
+.mbuttom10 {
+    margin-bottom: 10%;
+}
+
+/*hovers*/
+.fom-button:hover {
+    color: aliceblue;
+}
+
+.fom-button:hover:active {
+    color: blue;
+}
+
+.gs-button:hover {
+    color: aliceblue;
+}
+
+.gs-button:hover:active {
+    color: blue;
+}
+
+.s-button:hover{
+    color: aliceblue;
+}
+
+.s-button:hover:active{
+    color: blue;
+}
+
+/*background*/
+.background {
+    background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url(../img/bg-masthead.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    height: 1000px;
+}
+
+/*buttons*/
+.fom-button {
+    border-radius: 10rem;
+    padding: 1% 1%;
+    text-transform: uppercase;
+    border: none;
+    background-color: #f4623a;
+    color: white;
+    margin-top: 3%;
+}
+
+.gs-button {
+    background-color: #f8f9fa !important;
+    color: black !important;
+    margin-top: 3%;
+    border-radius: 10rem;
+    padding: 1% 1%;
+    text-transform: uppercase;
+    border: none;
+    background-color: white;
+
+}
+
+.s-button {
+    border-radius: 10rem;
+    padding: 1% 1%;
+    text-transform: uppercase;
+    border: none;
+    background-color: #f4623a;
+    color: white;
+    margin-top: 3%;
+}
+
+/*colors*/
+.b-color-orange {
+    background-color: #f4623a !important;
+}
+
+.color-white75 {
+    color: rgba(255, 255, 255, 0.75) !important;
+}
+
+.color-unnamed {
+    color: #6c9ccc !important;
+}
+
+.bcolor-black {
+    background-color: #212529;
+}
+
+/*etc*/
+.hrline {
+    height: 0.2rem;
+    max-width: 3.25rem;
+    margin: 1.5rem auto;
+    background-color: #f4623a;
+    opacity: 1;
+    border: none;
+}
+
+.noborder {
+    border: none;
+    border-width: 0px;
+}
+
+.td {
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+h1 {
+    font-size: xx-large;
+}
+
+.sector1 h2 {
+    font-weight: 400;
+}
+
+.displayblock {
+    display: block;
+    margin-top: 1%;
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+
+}
+
+.img {
+
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+
+}
+
+.container:hover .image {
+    opacity: 0.3;
+}
+
+.table {
+    margin-left: 10% !important;
+    margin-right: 10% !important;
+    justify-self: center;
+    justify-content: center;
+    justify-items: center;
+}
+
